@@ -1,0 +1,9 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - mkdir /flask-app
+      - cp -r * /flask-app
+artifacts:
+  files: '**/*'
