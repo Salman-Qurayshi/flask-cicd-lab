@@ -18,7 +18,7 @@ Flask-lab/
 
 ---
 
-## 🚀 Deployment Workflow
+##  Deployment Workflow
 
 1. **CodePipeline** pulls the code from GitHub.
 2. **CodeBuild** runs `buildspec.yml` to prepare the app.
@@ -28,7 +28,7 @@ Flask-lab/
 
 ---
 
-## 🔧 Requirements on EC2 Instance
+##  Requirements on EC2 Instance
 
 Before using CodeDeploy, make sure your EC2 instance:
 
@@ -38,7 +38,7 @@ Before using CodeDeploy, make sure your EC2 instance:
 
 ---
 
-## 🌐 App Preview
+##  App Preview
 
 Once deployed, visit:  
 `http://<EC2-PUBLIC-IP>:5000`
@@ -49,7 +49,7 @@ You’ll see:
 
 ---
 
-## 🧪 Purpose
+##  Purpose
 
 This lab was built as a personal project to:
 
